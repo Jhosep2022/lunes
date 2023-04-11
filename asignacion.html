@@ -26,31 +26,29 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>LOS<br><small>NAVARRETES</small></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item "><a href="Johnson.html" class="nav-link">Johnson</a></li>
-	          <li class="nav-item active"><a href="asignacion.html" class="nav-link">Asignacion</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Noroeste</a></li>
-            <li class="nav-item"><a href="https://drive.google.com/file/d/1OmRMqTSXrTNwXljVK-X_puKRU9NM07RK/view?usp=sharing" class="nav-link">Manual</a></li>
-	        </ul>
-	      </div>
-		  </div>
-	  </nav>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" style="background-color: orange !important;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="casaas.png" alt="Logo" height="80" width="180">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu" style="color: black;"></span> <span style="color: black;">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link" style="color: black;">Home</a></li>
+            <li class="nav-item"><a href="Johnson.html" class="nav-link" style="color: black;">Johnson</a></li>
+            <li class="nav-item"><a href="asignacion.html" class="nav-link" style="color: black;">Asignacion</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link" style="color: black;">Noroeste</a></li>
+            <li class="nav-item"><a href="https://drive.google.com/file/d/1HmhJRzx9UwtHc3p3suEIXtksPgzvcY2c/view?usp=sharing" class="nav-link" style="color: black;">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- END nav -->
-
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">ALGORITMO DE ASIGNACION</h1>     
+            <div class="col-md-1 col-sm-10 text-center ftco-animate">
+            	<h1 class="mb-1 mt-1 bread">ASIGNACION</h1>     
             </div>
-    
-		
-
     <section class="ftco-menu slider-text justify-content-center align-items-center">
     	<div class="container-fluid slider-text justify-content-center align-items-center">
     		<div class="row slider-text justify-content-center align-items-center">
@@ -58,14 +56,17 @@
 	    		</div>
 	    		<div class=" ftco-animate p-md-5">
 		    		<div class="row ">
-		          <div class="col-md-12 nav-link-wrap mb-5">
-		            <div class="nav col-lg-12 ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-		              <a class="nav-link active col-lg-3 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">CREAR GRAFO</a>
-
-		              <a class="nav-link col-lg-3 slider-text justify-content-center align-items-center" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false" onclick="maximizar()">MAXIMIZAR</a>
-
-					  <a class="nav-link col-lg-3 slider-text justify-content-center align-items-center" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false" onclick="minimizar()"">MINIMIZAR</a>
-
+		          <div class="col-md-6 nav-link-wrap mb-2">
+		            <div class="nav col-lg-6 ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <li>
+		              <a class="nav-link active col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">CREAR GRAFO</a>
+                  </li> 
+                  <li>  
+		              <a class="nav-link col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false" onclick="maximizar()">MAXIMIZAR</a>
+                  </li>
+                  <li>      
+					        <a class="nav-link col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false" onclick="minimizar()">MINIMIZAR</a>
+                  </li>  
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
@@ -79,6 +80,11 @@
                 </ul>
               </li>
             </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <input type="file" value="Cargar Archivo" id="btnCargar" name="jsonFile" style="background-color: black;opacity: 0;color:white;">
  
 		            </div>
@@ -96,11 +102,11 @@
 								  </div>
 								  <br>
 							    <script src='https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js'></script>
-          <script src='https://unpkg.com/alea@1.0.0/alea.js'></script>
-          <script  src="js/asignacion.js"></script>
-          <script  src="js/archivoA.js"></script>
-          <script src="js/sweetalert2.all.min.js"></script>
-          <script src="js/munkres.js"></script>
+                  <script src='https://unpkg.com/alea@1.0.0/alea.js'></script>
+                  <script  src="js/asignacion.js"></script>
+                  <script  src="js/archivoA.js"></script>
+                  <script src="js/sweetalert2.all.min.js"></script>
+                  <script src="js/munkres.js"></script>
 									</div> 
 		              		</div>
 		              		
