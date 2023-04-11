@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Algoritmos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+	<link type="text/css" href="estilos/estilo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>LOS<br><small>NAVARRETES</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item "><a href="Johnson.html" class="nav-link">Johnson</a></li>
+	          <li class="nav-item "><a href="asignacion.html" class="nav-link">Asignacion</a></li>
+	          <li class="nav-item "><a href="blog.html" class="nav-link">Noroeste</a></li>
+	          <li class="nav-item active"><a href="about.html" class="nav-link">Arboles</a></li>
+			  <li class="nav-item"><a href="sort.html" class="nav-link">Ordenamiento</a></li>
+			  <li class="nav-item"><a href="contact.html" class="nav-link">Kruskal</a></li>
+			  <li class="nav-item"><a href="dijkstra.html" class="nav-link">dijkstra</a></li>
+        <li class="nav-item"><a href="https://drive.google.com/file/d/1HXBEkYxEufKn_guUXFkn5TJKc886k-oI/view?usp=sharing" class="nav-link">Manual</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+
+      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">ARBOLES</h1>
+	            
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+		
+
+	<section class="ftco-menu slider-text justify-content-center align-items-center">
+    	<div class="container-fluid slider-text justify-content-center align-items-center">
+    		<div class="row slider-text justify-content-center align-items-center">
+	    		
+	    		</div>
+	    		<div class=" ftco-animate p-md-5">
+		    		<div class="row ">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav col-lg-12 ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">CREAR ARBOL</a>
+
+		              <a class="nav-link col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false" onclick="spreorden()">PRE ORDEN</a>
+
+					  <a class="nav-link col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false" onclick="sinorden()">IN ORDEN</a>
+            <a class="nav-link col-lg-2 slider-text justify-content-center align-items-center" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false" onclick="postnorden()">POST ORDEN</a>
+			
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
+                  Archivo
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" style="background-color: black;opacity: 0.3;color:white;" >
+                  <input class="guardar" type="button" value="Guardar Archivo" id="btnGuardar" onclick="exportNetwork()" >
+                  <label for="btnCargar" class="cargar">Cargar Archivo</label>
+                  <input type="file" value="Cargar Archivo" id="btnCargar" name="jsonFile" >
+                
+                </ul>
+              </li>
+            </ul>
+            <input type="file" value="Cargar Archivo" id="btnCargar" name="jsonFile" style="background-color: black;opacity: 0;color:white;">
+ 
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center" >
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+			<!-- inicio-->	
+
+		            <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-8 text-center">
+								<div class="menu-wrap">
+
+								 
+									<div class="form-floating" id="centro">
+										<textarea class="form-control"  id="entrada" style="height: 120px;width: 100%"></textarea>
+										<label for="entrada">input : </label>
+									  </div>
+									  <div id="centro">
+										<input class="johnson btn btn-secondary" type="button" value="Agregar Nodos" id="btnArbol" onclick="arbol()" >
+									  </div>
+									  <div id="centro">
+										
+									  </div>
+									  <div class="form-floating" id="centro">
+										<textarea class="form-control"  id="salida" style="height: 120px;width: 100%" disabled="disabled"></textarea>
+										<label for="salida">output : </label>
+									  </div>
+
+									<h1 class="bg-warning" Align="center">BONUS</h1>
+									<div class="form-floating" id="centro">
+										<textarea class="form-control"  id="inorden" style="height: 120px;width: 100%"></textarea>
+										<label for="entrada">In-orden : </label>
+									  </div>
+									  
+									  <div class="form-floating" id="centro">
+										  <textarea class="form-control"  id="preorden" style="height: 120px;width: 100%"></textarea>
+										  <label for="entrada">Pre-orden : </label>
+										</div>
+					  
+									  <div class="form-floating" id="centro">
+										<textarea class="form-control"  id="postorden" style="height: 120px;width: 100%"></textarea>
+										<label for="entrada">Post-orden : </label>
+									  </div>
+									  <div id="centro">
+										  <input class="johnson btn btn-secondary" type="button" value="Agregar Nodos" id="btnArbol" onclick="comparacion()" >
+										</div>	
+									  <div id="my"> </div>
+									  <script src='https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js'></script>
+									  <script src='https://unpkg.com/alea@1.0.0/alea.js'></script>
+									  <script  src="js/arboles.js"></script>
+									  <script  src="js/archivoArb.js"></script>
+									  <script src="js/sweetalert2.all.min.js"></script>
+									  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+									  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+									  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
+									  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+									</div> 
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				
+									<h3><a href="#">Arboles</a></h3>
+									
+									<div class="text">
+								
+										<p>Un árbol de decisión​ es un modelo de predicción utilizado en diversos ámbitos que van desde la inteligencia artificial hasta la Economía.</p>
+										
+									</div>
+		              			</div>
+		              		</div>
+		              		
+		              	</div>
+		            </div>
+
+		             
+<!-- inicio-->	
+
+
+
+			<!--final -->
+
+
+
+
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+  <!-- loader -->
+  
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>

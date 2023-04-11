@@ -1,0 +1,243 @@
+body {
+  font: 10pt sans;
+}
+#mynetwork {
+  width: 85%;
+  height: 70%;
+  margin: 5px;
+  border: 1px solid #113c75;
+  margin-left: auto;
+  margin-right: auto;
+}
+.matriz {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.matriz:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.botones {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.botones:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.guardar {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.guardar:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.cargar {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
+}
+.cargar:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+#config {
+  float: left;
+  width: 400px;
+  height: 600px;
+}
+#input_output {
+  height: 10%;
+  width: 15%;
+}
+p {
+  font-size: 16px;
+  max-width: 700px;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+thead, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #e2f4f8}
+
+thead {
+  background-color: #113c75e5;
+  color: rgb(255, 255, 255);
+}
+.columna{
+  background-color: #113c75e5;
+  color: rgb(255, 255, 255);
+}
+.suma{
+  background-color: #c1f8dcb4;
+  color: rgb(0, 0, 0);
+}
+#input_output {
+  height: 10%;
+  width: 15%;
+}
+.johnson {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+.johnson:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+#centro{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 85%;
+}
+.numero{
+  width:100%;
+}
+.asignacion {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  width: 49.7%;
+  cursor: pointer;
+}
+.asignacion:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.sorts {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  width: 19.7%;
+  cursor: pointer;
+}
+.sorts:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.random {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+.random:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
+.colores{
+  background-color: #fdbb3fe5;
+  color: #000000;
+}
+.arbol {
+  background-color: #113c75;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #113c75;
+  font-size: 16px;
+  width: 32.7%;
+  cursor: pointer;
+}
+.arbol:hover {
+  background-color: #fdfdfd;
+  border: 0.5px solid #113c75;
+  color: #113c75;
+}
